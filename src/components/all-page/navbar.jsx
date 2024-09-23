@@ -10,7 +10,7 @@ const font = Poppins({
 
 export const NavBar = () => {
   return (
-    <nav className={cn("fixed w-screen flex px-24 py-5 bg-black")}>
+    <nav className={cn("w-screen flex px-24 py-5 bg-black")}>
       <div className={cn("w-full flex flex-row items-center justify-between")}>
         <h1 className={cn("text-3xl text-white font-bold", font.className)}>
           PAW 10
